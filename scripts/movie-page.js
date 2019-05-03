@@ -10,11 +10,6 @@ container.style.display = "none";
 //Gets the movie ID stored in the Session storage and uses it to display information about
 //the movie that has that ID.
 function getMovie() {
-    spinner.style.display = "block";
-    setTimeout(() => {
-        spinner.style.display = "none";
-        container.style.display = "block";
-    }, 1000);
 
     let movieId = sessionStorage.getItem("movieId");
 
@@ -37,7 +32,7 @@ function getMovie() {
 
             let output = `
 			<div class="moviePage">
-			<div class="poster"><img src="http://image.tmdb.org/t/p/w300/${movie.poster_path}"></div>
+			<div class="poster"><img src="https://image.tmdb.org/t/p/w300/${movie.poster_path}"></div>
 			<div class="info">
 				<h2>${movie.title}</h2>
 				<ul>
