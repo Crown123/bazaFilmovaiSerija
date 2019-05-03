@@ -1,0 +1,378 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    transition: .5s ease;
+    background-color: #13181D;
+    padding-right: 100px;
+    z-index: 5;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0 5px 20px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.nav-links {
+    float: right;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.underLine {
+    color: #01d277;
+    line-height: 80px;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.underLine:hover {
+    color: #13181D;
+    background: #01d277;
+}
+
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #01d277;
+    transition: all 0.3s ease;
+}
+
+.header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(../Slike/329583.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.center {
+    text-align: center;
+    padding-top: 200px;
+    color: rgba(255, 255, 255, 0.781);
+    letter-spacing: 3px;
+}
+
+.center h1 {
+    padding-bottom: 30px;
+    color: #01d277;
+}
+
+.center p {
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.781);
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+.search {
+    border: 3px solid #01d277;
+    height: 60px;
+    width: 400px;
+    font-size: 25px;
+    border-radius: 50px;
+    padding: 0px 15px;
+    outline: none;
+    letter-spacing: 2px;
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+div:focus, button:focus, span:focus{
+    outline: none !important;
+}
+
+/* Popular movies section */
+.popular{
+    position: relative;
+    margin: 50px 0;
+}
+.popularTitle{
+    color: #13181D;
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+    left: 5%;
+    top: -40px;
+    display: flex;
+    align-items: center;
+}
+
+/* Now Playing section */
+.nowPlaying {
+    padding-bottom: 80px;
+}
+.nowPlaying h1{
+    text-align: center;
+    font-size: 65px;
+    color: #13181D;
+}
+#nowPlayingText{
+    text-align: center;
+}
+.nowPlaying p{
+
+    font-size: 16px;
+    color: #13181D;
+}
+.nowPlaying a{
+    color: #e1302a;
+    text-decoration: none;
+    font-family: "Montserrat SemiBold";
+}
+
+
+
+/* MOVIE & TV SHOW CARDS */
+.scroll{
+    margin:15px auto;
+    overflow: hidden;
+    width: 88.5%;
+    display: flex;
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transition: 0.5s ease;
+}
+.scroll .card:first-child{
+    margin-left: 0px;
+}
+
+.scroll .card{
+    margin: 0px 3px;
+    position: relative;
+    height: 450px;
+    transition: 0.5s ease;
+}
+.scroll .card img{
+    height: 450px;
+}
+.scroll .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.75);
+    transition: 0.3s ease-in-out;
+    padding: 10px;
+    transform: translateY(-500px);
+}
+.scroll .overlay .movie{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.scroll .card .overlay .movie a{
+	display: flex;
+	position: static;
+	justify-content: center;
+	align-items: center;
+    padding: 3px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: #fff;
+    color: #13181D;
+    margin: 10px 15px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    text-decoration: none;
+	outline: none !important;
+}
+.scroll .card .overlay .movie a:hover{
+    background-color: #13181D;
+    color: #fff;
+}
+.scroll .movie p {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.movie p span{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.movie p i {
+	margin-left: 5px;
+	margin-bottom: 2px;
+	font-size: 22px;
+}
+.star{
+	color: gold;
+}
+.date{
+	text-shadow: 3px 3px rgba(0,0,0,0.35);
+	color: #fff;
+}
+.scroll .overlay h2{
+    width: auto;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.scroll .card:hover .overlay{
+    transform:translateY(0px);
+}
+
+/* Footer */
+footer {
+    border-top: 3px solid #13181D;
+    background-color: rgba(255, 255, 255, 0.781);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "links deadpool credits";
+    position: relative;
+}
+
+.githubLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #13181D;
+}
+
+.githubLink img {
+    cursor: pointer;
+}
+
+.linkCredits {
+    text-align: center;
+}
+
+.linkCredits p {
+    color: #13181D;
+    font-size: 16px;
+}
+.linkCredits a {
+    text-decoration: none;
+    color: #01d277;
+}
+
+.credits {
+    grid-area: credits;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        padding-right: 0;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 90vh;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 53%;
+        transform: translateX(100%);
+        animation: navSlideOut 0.5s forwards;
+        background: #13181D;
+        z-index: 5;
+    }
+    
+
+    .nav-links li {
+        opacity: 0;
+    }
+    .burger {
+        display: block;
+        cursor: pointer;
+        float: right;
+        padding: 25px 30px 0 0 ;
+    }
+
+    .center p {
+        font-size: 15px;
+    }
+
+    .linkCredits p {
+        font-size: 10px;
+    }
+
+
+}
+
+.nav-active {
+    transform: translateX(0%);
+    animation: navSlide 0.5s ease;
+}
+
+@keyframes navSlide {
+    from {
+      transform: translateX(100%);
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+@keyframes navSlideOut {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
