@@ -190,7 +190,10 @@ nav {
         background: #13181D;
         z-index: 5;
     }
-    
+
+    .search {
+	width: 300px;
+	}
 
     .nav-links li {
         opacity: 0;
