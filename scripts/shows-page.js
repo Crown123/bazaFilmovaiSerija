@@ -10,11 +10,6 @@ container.style.display = "none";
 //Gets the tv show ID stored in the Session storage and uses it to display information about
 //the tv show that has that ID.
 function getShowInfo() {
-    spinner.style.display = "block";
-    setTimeout(() => {
-        spinner.style.display = "none";
-        container.style.display = "block";
-    }, 1000);
 
     const showId = sessionStorage.getItem("showId");
 
@@ -35,7 +30,7 @@ function getShowInfo() {
             homepage = series.homepage;
             let output = `
 			<div class="moviePage">
-					<div class="poster"><img src="http://image.tmdb.org/t/p/w300/${series.poster_path}"></div>
+					<div class="poster"><img src="https://image.tmdb.org/t/p/w300/${series.poster_path}"></div>
 					<div class="info">
 						<h2>${series.name}</h2>
 						<ul>
