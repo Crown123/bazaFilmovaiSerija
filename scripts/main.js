@@ -32,7 +32,7 @@ window.onload = function featuredMovies() {
                             <a onclick="movieSelected('${featured[i].id}')" href="#">Details</a>
                         </div>
                     </div>
-                    <img src="http://image.tmdb.org/t/p/w400/${featured[i].poster_path}" onerror="this.onerror=null;this.src='../Slike/download.png';">
+                    <img src="https://image.tmdb.org/t/p/w400/${featured[i].poster_path}" onerror="this.onerror=null;this.src='../Slike/download.png';">
                 </div>
                 `;
                 let featuredOutput = document.getElementById("movies");
@@ -58,7 +58,7 @@ window.onload = function featuredMovies() {
                                 <a onclick="showSelected('${shows[i].id}')" href="#">Details</a>
                         </div>
                         </div>
-                        <img src="http://image.tmdb.org/t/p/w400/${shows[i].poster_path}" onerror="this.onerror=null;this.src='../Slike/download.png';">
+                        <img src="https://image.tmdb.org/t/p/w400/${shows[i].poster_path}" onerror="this.onerror=null;this.src='../Slike/download.png';">
                     </div>`;
             }
             const popularShows = document.getElementById("tvShows");
@@ -82,7 +82,7 @@ window.onload = function featuredMovies() {
                                 <a onclick="movieSelected('${nowPlaying[i].id}')" href="#">Details</a>
                             </div>
                         </div>
-                        <img src="http://image.tmdb.org/t/p/w400/${nowPlaying[i].poster_path}" onerror="this.onerror=null;this.src='../Slike/download.png';">
+                        <img src="https://image.tmdb.org/t/p/w400/${nowPlaying[i].poster_path}" onerror="this.onerror=null;this.src='../Slike/download.png';">
                     </div>`;
             }
             const nowPlayingOutput = document.getElementById("nowPlaying");
