@@ -1,12 +1,6 @@
 // API KEY
 const API_KEY = "0443beba9f7c8579b67f3d7e3ec68152";
 
-//Spinner.
-const spinner = document.querySelector(".spinner");
-const container = document.querySelector(".container");
-spinner.style.display = "none";
-container.style.display = "none";
-
 //Gets the movie ID stored in the Session storage and uses it to display information about
 //the movie that has that ID.
 function getMovie() {
