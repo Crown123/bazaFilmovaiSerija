@@ -44,7 +44,7 @@ function showByTitle(input){
 						</div>
 						</div>
 						<div class="card_img">
-							<img src="http://image.tmdb.org/t/p/w400/${series[i].poster_path}" onerror="this.onerror=null;this.src='../Slike/download.png';">
+							<img src="https://image.tmdb.org/t/p/w400/${series[i].poster_path}" onerror="this.onerror=null;this.src='../Slike/download.png';">
 						</div>
 					</div>
 					`;
@@ -60,7 +60,7 @@ function showByTitle(input){
                     </div>
                     </div>
                     <div class="card_img">
-                        <img src="http://image.tmdb.org/t/p/w400/${series[i].poster_path}" onerror="this.onerror=null;this.src='../Slike/download.png';">
+                        <img src="https://image.tmdb.org/t/p/w400/${series[i].poster_path}" onerror="this.onerror=null;this.src='../Slike/download.png';">
                     </div>
                 </div>
 				`;
