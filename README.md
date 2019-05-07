@@ -17,7 +17,7 @@ Ovo je demo prikaz veb-aplikacije :  https://crown123.github.io/bazaFilmovaiSeri
 Na početnoj strani imamo jedan tekst dobrodošlice, najpopularnije filmove i serije trenutno, filmove koji se prikazuju
 u bioskopima sada.
 
-![](https://github.com/Crown123/bazaFilmovaiSerija/readmeSlike/Slika1.png)
+![](https://Crown123.github.io/bazaFilmovaiSerija/readmeSlike/Slika1.png)
 
 ### Strane za pretragu filmoova i serija
 ![]()
