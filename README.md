@@ -1,8 +1,8 @@
-#Baza filmova i serija
+# Baza filmova i serija
 <table>
 <tr>
 <td>
- Ova veb-aplikacija koristi TMDB-Api da prikaže najpopularnije filmove i serije, filmove koji se trnutno prikazuju u bioskopima
+ Ova veb-aplikacija koristi TMDb-Api da prikaže najpopularnije filmove i serije, filmove koji se trnutno prikazuju u bioskopima
   i omogućava pretragu fimova i serija po nazivu.
 </td>
 </tr>
@@ -21,27 +21,34 @@ u bioskopima sada.
 ![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika2.png)
 
 ### Strane za pretragu filmoova i serija
+Ima samo seach bar za kucanje naziva filma ili serije
 ![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika3.png)
-![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika4.png)
+Dobijamo rezultate za taj naziv
 ![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika5.png)
 
-### Strna sa detaljima o filmu ili seriji
+### Strana sa detaljima o filmu ili seriji
+Sadrži osnoven podatke o filmu ili seriji, radnju filma/serije
 ![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika6.png)
+Video trejler za film/serijju
 ![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika7.png)
 
 ## Prikaz na telefonu
+Veb-aplikacije je responzivna i kompatibilna je za prikaz na telefonu ili tabletu
 ![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika8.png)
 ![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika9.png)
 
-## Built with 
+## Napravljeno pomoću
+Tehnologije koje su korišćene za praveljenje ove veb-aplikacije
 
-- [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
-- [Google Chart API](https://developers.google.com/chart/interactive/docs/quick_start) - Free , Rich Gallery , Customizable and Cross-browser compatible.
-- [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
+- [HTML - CSS](https://www.w3schools.com/html/html_css.asp) - Korišćeni za izgled stranica
+- [TMDb API](https://developers.themoviedb.org/3) - TMDb je veb-sajt na kojem mogu da se nađu sve moguće informacije vezane za filmove i serija, takođe imaju svoj API koji je besplatan za korišćenje za nekomercijalnu upotrebu, dok se komercijalna upotreba plaća. 
+- [JavaScript-jQuery](https://www.w3schools.com/jquery/) - Najveći deo projekta urađen je pomoću vanila javascrript-a, samo deo navigacije sa jQuery-em. 
+ [Axios](https://appdividend.com/2018/08/30/getting-started-with-axios-tutorial-example/) - Axios je 
 
-## To-do
-- Add BSE (India) Symbol to the current App.
-- Decide comparison models of Stocks. (suggestions are most welcome).
-- Another WebApp, capable of comparing at least 10 stocks.
+
+## Šta dalje?
+- Omogućiti pretrage po žanru, imenu glumca i godini u kojoj je film izašao
+- Dodati informacije o sezonama i epizodama serija u stranicu sa detaljima
+- Mogućnost pravljenja naloga i prijave, koji omogućava pravljenje liste omiljenih filmova, filmova koje treba pogledati itd.
 
 
