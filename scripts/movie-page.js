@@ -125,8 +125,8 @@ function getMovie() {
 }
 
 // Take user to details page.
-function movieSelected(id) {
-    sessionStorage.setItem("movieId", id);
-    location.replace("movie-page.html");
-    return false;
-}
+// function movieSelected(id) {
+//    sessionStorage.setItem("movieId", id);
+//    location.replace("movie-page.html");
+//    return false;
+//}
