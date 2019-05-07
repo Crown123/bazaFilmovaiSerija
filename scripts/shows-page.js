@@ -158,7 +158,7 @@ function getShowInfo() {
             document.getElementById("trailer").style.display = "none";
             document.getElementById("trailer_title").style.display = "none";
         })
-    // Gets the trailer link from youtube. Video is hidden until users click on TRAILER button.
+    // Gets the trailer link from youtube.
     axios.get("https://api.themoviedb.org/3/tv/" + showId + '/videos?api_key=' + API_KEY + '&language=en-US')
         .then((response) => {
 
@@ -196,8 +196,8 @@ function getShowInfo() {
 
 
 // Detailed tv shows page.
-function showSelected(id){
-	sessionStorage.setItem("showId", id);
-	location.replace("shows-page.html");
-	return false;
-}
+// function showSelected(id){
+//	sessionStorage.setItem("showId", id);
+//	location.replace("shows-page.html");
+//	return false;
+// }
