@@ -18,19 +18,20 @@ Na početnoj strani imamo jedan tekst dobrodošlice, najpopularnije filmove i se
 u bioskopima sada.
 
 ![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika1.png)
+![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika2.png)
 
 ### Strane za pretragu filmoova i serija
-![]()
+![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika3.png)
+![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika4.png)
+![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika5.png)
 
 ### Strna sa detaljima o filmu ili seriji
-![]()
-
-
+![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika6.png)
+![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika7.png)
 
 ## Prikaz na telefonu
-
-
-![]()
+![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika8.png)
+![](https://github.com/Crown123/bazaFilmovaiSerija/blob/master/readmeSlike/slika9.png)
 
 ## Built with 
 
